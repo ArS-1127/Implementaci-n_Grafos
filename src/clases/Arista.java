@@ -1,4 +1,3 @@
-
 package clases;
 
 import java.awt.Graphics;
@@ -22,6 +21,10 @@ public class Arista {
     
     public Nodo getFin(){
         return fin;
+    }
+    
+    public boolean conecta(Nodo n1, Nodo n2) {
+        return (origen == n1 && fin == n2) || (origen == n2 && fin == n1);
     }
     
     public void dibujar(Graphics g){
