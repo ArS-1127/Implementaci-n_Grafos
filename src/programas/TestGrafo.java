@@ -2,11 +2,10 @@ package programas;
 
 import clases.Nodo;
 import clases.PanelGrafo;
-import java.awt.event.KeyEvent;
 import java.util.List;
 
 /**
- *
+ *@author Ariadna Soriano Apolinar
  * @author Odrey Leonides Garcia
  * @author Jonathan Eliel Perfecto Enriquez
  */
